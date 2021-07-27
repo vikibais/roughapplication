@@ -17,8 +17,8 @@ jobs:
         run: flutter pub get
       - name: 'Build Web App'
         run: flutter build web
-      - uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIRSTAPP_BFF16 }}'
-          projectId: firstapp-bff16
+     # - uses: FirebaseExtended/action-hosting-deploy@v0
+      #  with:
+       #   repoToken: '${{ secrets.GITHUB_TOKEN }}'
+        #  firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIRSTAPP_BFF16 }}'
+         # projectId: firstapp-bff16
